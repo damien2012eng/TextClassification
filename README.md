@@ -32,3 +32,12 @@ In the function ` main() `, there are several key execute parameters you can mod
 In the `train_list`, you can add the one or more algorithms you want to play with. The parameters are `'decision tree'`, `'svm'`, `'linear regression'`, `'mlp'`, `'gaussian naive bayes'` and `'knn'`. Decision tree is the defalt algorithm.
 
 In the parameters of `n.transform(type=  , tf_idf=  )`, you can define the type of transform. The parameters of `type` are `'bow'`, `'3-gram'` and `'2-gram'`. The parameter of `'tf_idf` is boolean(True or False), which define whether it will do tf-idf or not. BOW and tf-idf False is the defalt parameter.
+
+## Results
+
+![alt text](https://github.com/damien2012eng/TextClassification/blob/main/src/images/algorithmsComp.png?raw=true)
+<p align="center">Fig. 1 Performing algorithms comparison among 5 ML. algorithms and 3 feature learning methods </p>
+
+
+![alt text](https://github.com/damien2012eng/TextClassification/blob/main/src/images/confusionMatrix.png?raw=true)
+<p align="center">Fig. 2 Confusion Matrix with algorithm KNN and TF-IDF </p>
